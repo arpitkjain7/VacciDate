@@ -70,6 +70,30 @@ echo $telegram_chat_id
 ```
 5. Now run below command to start the program:
 ```python
-python main.py -d <district_id> -a <age_graoup> -dose <which_dose>
+python main.py -d <district_id>
 ```
+### Different paramteres available
+There are 2 main mode in which this BOT works
+#### District Mode: 
+The availability of vaccination slots is checked for the whole district (need to provide district id corresponding to your district from the list available in "data/district_data").
+#### Pincode Mode: 
+Along with the district id provide the pincode of your area, and the BOT will filter the results for your specific area.
 
+### Sub-parameters available
+There are few more parameters using which the output result can be filtered
+#### Age Group:
+The age group can be selected when running the python script. "-a" or "--age_group" can be used to filter results for 18+ or 45+ vaccine slot.
+##### Pass 18 if you only want to track for 18+ availability
+##### Pass 45 if you only want to track for 45+ availability
+##### Dont pass this parameter if you want to track both 18+ and 45+
+
+#### Dose:
+The number of dose can also be filtered. "-dose" can be used to filter results based on 1st Dose or 2nd Dose
+##### Pass 1 if you only want to track 1st dose availability
+##### Pass 2 if you only want to track 2nd dose availability
+##### Dont pass this parameter if you want to track both 1st and 2nd dose availability
+
+Execute below command for more details
+```python
+python3 main.py --help
+```
