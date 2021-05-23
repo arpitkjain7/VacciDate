@@ -50,5 +50,26 @@ pipenv shell
 ```python
 pip install pipenv
 ```
+5. Install all the required dependencies using below command:
+```python
+pipenv install
+```
+6. Congratulations!!! Installation is compelte.
 
+### Execute program
+1. Before we execute the program, make sure the two required env variables are exported.
+2. Open up "env" file and update Telegram Bot token in "telegram_bot_token" and Telegram channel Chat Id in "telegram_chat_id".
+3. Run below command on your command promt/terminal:
+```python
+source ./env
+```
+4. You should get the correct values to Token and Chat Id when running below command:
+```python
+echo $telegram_bot_token
+echo $telegram_chat_id
+```
+5. Now run below command to start the program:
+```python
+python main.py -d <district_id> -a <age_graoup> -dose <which_dose>
+```
 
