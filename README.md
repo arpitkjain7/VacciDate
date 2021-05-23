@@ -42,7 +42,7 @@ Clone the repository on your local system using below command
 git clone https://github.com/arpitkjain7/VacciDate.git
 ```
 #### OR
-download and extract the zip file.
+download the zip file.
 
 ### Installation Steps
 1. Open command promt or Terminal in your system.
