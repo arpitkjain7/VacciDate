@@ -33,11 +33,16 @@ There are different options avaialble in the BOT
 ## Setup
 ### Telegram BOT setup
 To get detailed steps to setup your telegram bot please refer the blog:
-<link to blog>
+link_to_blog
 If you already know how to setup a Telegram BOT and Telegram Channel, please create these two things and keep BOT Token and Chat Id handy (we would need that as part of setup).
 
 ### Code base
-Clone the repository on your local system or download and extract the zip file.
+Clone the repository on your local system using below command
+```python
+git clone https://github.com/arpitkjain7/VacciDate.git
+```
+#### OR
+download and extract the zip file.
 
 ### Installation Steps
 1. Open command promt or Terminal in your system.
@@ -109,4 +114,4 @@ python3 main.py -d 395 -p 400076 -dose 2
 ```
 
 ## Refer the blog for more details:
-<Link of blog>
+Link of blog
