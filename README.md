@@ -81,7 +81,7 @@ Along with the district id provide the pincode of your area, and the BOT will fi
 
 ### Sub-parameters available
 There are few more parameters using which the output result can be filtered
-#### Age Group:
+#### <ins>Age Group</ins>:
 The age group can be selected when running the python script. "-a" or "--age_group" can be used to filter results for 18+ or 45+ vaccine slot.
 ##### Pass 18 if you only want to track for 18+ availability
 ##### Pass 45 if you only want to track for 45+ availability
@@ -97,4 +97,3 @@ Execute below command for more details
 ```python
 python3 main.py --help
 ```
-<ins>text</ins>
