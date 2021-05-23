@@ -1,0 +1,85 @@
+{
+    "districts": [
+        {
+            "district_id": 224,
+            "district_name": "Anantnag"
+        },
+        {
+            "district_id": 223,
+            "district_name": "Bandipore"
+        },
+        {
+            "district_id": 225,
+            "district_name": "Baramulla"
+        },
+        {
+            "district_id": 229,
+            "district_name": "Budgam"
+        },
+        {
+            "district_id": 232,
+            "district_name": "Doda"
+        },
+        {
+            "district_id": 228,
+            "district_name": "Ganderbal"
+        },
+        {
+            "district_id": 230,
+            "district_name": "Jammu"
+        },
+        {
+            "district_id": 234,
+            "district_name": "Kathua"
+        },
+        {
+            "district_id": 231,
+            "district_name": "Kishtwar"
+        },
+        {
+            "district_id": 221,
+            "district_name": "Kulgam"
+        },
+        {
+            "district_id": 226,
+            "district_name": "Kupwara"
+        },
+        {
+            "district_id": 238,
+            "district_name": "Poonch"
+        },
+        {
+            "district_id": 227,
+            "district_name": "Pulwama"
+        },
+        {
+            "district_id": 237,
+            "district_name": "Rajouri"
+        },
+        {
+            "district_id": 235,
+            "district_name": "Ramban"
+        },
+        {
+            "district_id": 239,
+            "district_name": "Reasi"
+        },
+        {
+            "district_id": 236,
+            "district_name": "Samba"
+        },
+        {
+            "district_id": 222,
+            "district_name": "Shopian"
+        },
+        {
+            "district_id": 220,
+            "district_name": "Srinagar"
+        },
+        {
+            "district_id": 233,
+            "district_name": "Udhampur"
+        }
+    ],
+    "ttl": 24
+}

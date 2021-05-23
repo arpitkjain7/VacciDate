@@ -1,0 +1,9 @@
+COWIN:
+  GET_ALL_STATES: "https://cdn-api.co-vin.in/api/v2/admin/location/states"
+  GET_ALL_DISTICTS: "https://cdn-api.co-vin.in/api/v2/admin/location/districts"
+  SLOT_BY_DISTICT: "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict"
+  SLOT_BY_PINCODE: "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin"
+
+TELEGRAM:
+  BOT: !ENV "${telegram_bot_token}"
+  CHAT_ID: !ENV "${telegram_chat_id}"

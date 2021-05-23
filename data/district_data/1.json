@@ -1,0 +1,17 @@
+{
+    "districts": [
+        {
+            "district_id": 3,
+            "district_name": "Nicobar"
+        },
+        {
+            "district_id": 1,
+            "district_name": "North and Middle Andaman"
+        },
+        {
+            "district_id": 2,
+            "district_name": "South Andaman"
+        }
+    ],
+    "ttl": 24
+}

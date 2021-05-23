@@ -1,0 +1,137 @@
+{
+    "districts": [
+        {
+            "district_id": 582,
+            "district_name": "Adilabad"
+        },
+        {
+            "district_id": 583,
+            "district_name": "Bhadradri Kothagudem"
+        },
+        {
+            "district_id": 581,
+            "district_name": "Hyderabad"
+        },
+        {
+            "district_id": 584,
+            "district_name": "Jagtial"
+        },
+        {
+            "district_id": 585,
+            "district_name": "Jangaon"
+        },
+        {
+            "district_id": 586,
+            "district_name": "Jayashankar Bhupalpally"
+        },
+        {
+            "district_id": 587,
+            "district_name": "Jogulamba Gadwal"
+        },
+        {
+            "district_id": 588,
+            "district_name": "Kamareddy"
+        },
+        {
+            "district_id": 589,
+            "district_name": "Karimnagar"
+        },
+        {
+            "district_id": 590,
+            "district_name": "Khammam"
+        },
+        {
+            "district_id": 591,
+            "district_name": "Kumuram Bheem"
+        },
+        {
+            "district_id": 592,
+            "district_name": "Mahabubabad"
+        },
+        {
+            "district_id": 593,
+            "district_name": "Mahabubnagar"
+        },
+        {
+            "district_id": 594,
+            "district_name": "Mancherial"
+        },
+        {
+            "district_id": 595,
+            "district_name": "Medak"
+        },
+        {
+            "district_id": 596,
+            "district_name": "Medchal"
+        },
+        {
+            "district_id": 612,
+            "district_name": "Mulugu"
+        },
+        {
+            "district_id": 597,
+            "district_name": "Nagarkurnool"
+        },
+        {
+            "district_id": 598,
+            "district_name": "Nalgonda"
+        },
+        {
+            "district_id": 613,
+            "district_name": "Narayanpet"
+        },
+        {
+            "district_id": 599,
+            "district_name": "Nirmal"
+        },
+        {
+            "district_id": 600,
+            "district_name": "Nizamabad"
+        },
+        {
+            "district_id": 601,
+            "district_name": "Peddapalli"
+        },
+        {
+            "district_id": 602,
+            "district_name": "Rajanna Sircilla"
+        },
+        {
+            "district_id": 603,
+            "district_name": "Rangareddy"
+        },
+        {
+            "district_id": 604,
+            "district_name": "Sangareddy"
+        },
+        {
+            "district_id": 605,
+            "district_name": "Siddipet"
+        },
+        {
+            "district_id": 606,
+            "district_name": "Suryapet"
+        },
+        {
+            "district_id": 607,
+            "district_name": "Vikarabad"
+        },
+        {
+            "district_id": 608,
+            "district_name": "Wanaparthy"
+        },
+        {
+            "district_id": 609,
+            "district_name": "Warangal(Rural)"
+        },
+        {
+            "district_id": 610,
+            "district_name": "Warangal(Urban)"
+        },
+        {
+            "district_id": 611,
+            "district_name": "Yadadri Bhuvanagiri"
+        }
+    ],
+    "ttl": 24
+}

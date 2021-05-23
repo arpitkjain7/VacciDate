@@ -1,0 +1,209 @@
+{
+    "districts": [
+        {
+            "district_id": 320,
+            "district_name": "Agar"
+        },
+        {
+            "district_id": 357,
+            "district_name": "Alirajpur"
+        },
+        {
+            "district_id": 334,
+            "district_name": "Anuppur"
+        },
+        {
+            "district_id": 354,
+            "district_name": "Ashoknagar"
+        },
+        {
+            "district_id": 338,
+            "district_name": "Balaghat"
+        },
+        {
+            "district_id": 343,
+            "district_name": "Barwani"
+        },
+        {
+            "district_id": 362,
+            "district_name": "Betul"
+        },
+        {
+            "district_id": 351,
+            "district_name": "Bhind"
+        },
+        {
+            "district_id": 312,
+            "district_name": "Bhopal"
+        },
+        {
+            "district_id": 342,
+            "district_name": "Burhanpur"
+        },
+        {
+            "district_id": 328,
+            "district_name": "Chhatarpur"
+        },
+        {
+            "district_id": 337,
+            "district_name": "Chhindwara"
+        },
+        {
+            "district_id": 327,
+            "district_name": "Damoh"
+        },
+        {
+            "district_id": 350,
+            "district_name": "Datia"
+        },
+        {
+            "district_id": 324,
+            "district_name": "Dewas"
+        },
+        {
+            "district_id": 341,
+            "district_name": "Dhar"
+        },
+        {
+            "district_id": 336,
+            "district_name": "Dindori"
+        },
+        {
+            "district_id": 348,
+            "district_name": "Guna"
+        },
+        {
+            "district_id": 313,
+            "district_name": "Gwalior"
+        },
+        {
+            "district_id": 361,
+            "district_name": "Harda"
+        },
+        {
+            "district_id": 360,
+            "district_name": "Hoshangabad"
+        },
+        {
+            "district_id": 314,
+            "district_name": "Indore"
+        },
+        {
+            "district_id": 315,
+            "district_name": "Jabalpur"
+        },
+        {
+            "district_id": 340,
+            "district_name": "Jhabua"
+        },
+        {
+            "district_id": 353,
+            "district_name": "Katni"
+        },
+        {
+            "district_id": 339,
+            "district_name": "Khandwa"
+        },
+        {
+            "district_id": 344,
+            "district_name": "Khargone"
+        },
+        {
+            "district_id": 335,
+            "district_name": "Mandla"
+        },
+        {
+            "district_id": 319,
+            "district_name": "Mandsaur"
+        },
+        {
+            "district_id": 347,
+            "district_name": "Morena"
+        },
+        {
+            "district_id": 352,
+            "district_name": "Narsinghpur"
+        },
+        {
+            "district_id": 323,
+            "district_name": "Neemuch"
+        },
+        {
+            "district_id": 326,
+            "district_name": "Panna"
+        },
+        {
+            "district_id": 359,
+            "district_name": "Raisen"
+        },
+        {
+            "district_id": 358,
+            "district_name": "Rajgarh"
+        },
+        {
+            "district_id": 322,
+            "district_name": "Ratlam"
+        },
+        {
+            "district_id": 316,
+            "district_name": "Rewa"
+        },
+        {
+            "district_id": 317,
+            "district_name": "Sagar"
+        },
+        {
+            "district_id": 333,
+            "district_name": "Satna"
+        },
+        {
+            "district_id": 356,
+            "district_name": "Sehore"
+        },
+        {
+            "district_id": 349,
+            "district_name": "Seoni"
+        },
+        {
+            "district_id": 332,
+            "district_name": "Shahdol"
+        },
+        {
+            "district_id": 321,
+            "district_name": "Shajapur"
+        },
+        {
+            "district_id": 346,
+            "district_name": "Sheopur"
+        },
+        {
+            "district_id": 345,
+            "district_name": "Shivpuri"
+        },
+        {
+            "district_id": 331,
+            "district_name": "Sidhi"
+        },
+        {
+            "district_id": 330,
+            "district_name": "Singrauli"
+        },
+        {
+            "district_id": 325,
+            "district_name": "Tikamgarh"
+        },
+        {
+            "district_id": 318,
+            "district_name": "Ujjain"
+        },
+        {
+            "district_id": 329,
+            "district_name": "Umaria"
+        },
+        {
+            "district_id": 355,
+            "district_name": "Vidisha"
+        }
+    ],
+    "ttl": 24
+}
