@@ -97,5 +97,16 @@ Execute below command for more details
 ```python
 python3 main.py --help
 ```
+## Example
+
+Below command will get details of 1st Dose vaccine availability in Mumbai District (District Id: 395) for 18+ age group
+```python
+python3 main.py -d 395 -a 18 -dose 1
+```
+Below command will get details of 2nd Dose vaccine availability in Powai (Area in Mumbai) with pincode:400076 for all age group
+```python
+python3 main.py -d 395 -p 400076 -dose 2
+```
+
 ## Refer the blog for more details:
 <Link of blog>
