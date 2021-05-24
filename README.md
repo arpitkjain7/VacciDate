@@ -33,7 +33,7 @@ There are different options avaialble in the BOT
 ## Setup
 ### Telegram BOT setup
 To get detailed steps to setup your telegram bot please refer the blog:
-link_to_blog
+https://arpitkjain10.medium.com/co-win-vaccine-availability-checker-vaccidate-d27e00c52e77
 If you already know how to setup a Telegram BOT and Telegram Channel, please create these two things and keep BOT Token and Chat Id handy (we would need that as part of setup).
 
 ### Code base
@@ -77,14 +77,14 @@ echo $telegram_chat_id
 ```python
 python main.py -d <district_id>
 ```
-### Different paramteres available
+### Different modes available
 There are 2 main mode in which this BOT works
 #### District Mode: 
 The availability of vaccination slots is checked for the whole district (need to provide district id corresponding to your district from the list available in "data/district_data").
 #### Pincode Mode: 
 Along with the district id provide the pincode of your area, and the BOT will filter the results for your specific area.
 
-### Sub-parameters available
+### Arguments available
 There are few more parameters using which the output result can be filtered
 #### <ins>Age Group</ins>:
 The age group can be selected when running the python script. "-a" or "--age_group" can be used to filter results for 18+ or 45+ vaccine slot.
@@ -113,5 +113,7 @@ python3 main.py -d 395 -a 18 -dose 1
 python3 main.py -d 395 -p 400076 -dose 2
 ```
 
-## Refer the blog for more details:
-Link of blog
+## Refer the blogs for more details:
+https://arpitkjain10.medium.com/co-win-vaccine-availability-checker-vaccidate-d27e00c52e77
+https://arpitkjain10.medium.com/co-win-vaccine-availability-checker-vaccidate-part-2-c4deb50a54b1
+https://arpitkjain10.medium.com/co-win-vaccine-availability-checker-vaccidate-part-3-d74f32a605a8
