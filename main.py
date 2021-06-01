@@ -4,6 +4,7 @@ from integration.api_setu import filter_results
 from VacciDate_bot.send_message import send_message
 import time
 import argparse
+import json
 
 
 today = datetime.now()
@@ -11,7 +12,7 @@ start_date = today.strftime("%d-%m-%Y")
 
 
 def search_slots_with_pin_code(pincode: str, age_group: str = None, dose: str = None):
-    for i in range(2):
+    for i in range(3):
         try:
             print(f"New job started at {datetime.now()}")
             slot_details = api_setu_get_slot_by_pincode(
@@ -21,12 +22,25 @@ def search_slots_with_pin_code(pincode: str, age_group: str = None, dose: str = 
                 slot_details, age_group=age_group, dose=dose
             )
             if len(available_slots) > 0:
-                print(f"slot available in {pincode}")
-                for i in range(min(6, len(available_slots))):
-                    success = send_message(text=available_slots[i])
-                    if not success:
-                        break
-            time.sleep(30)
+                with open("data/message_sent.json", "r") as f:
+                    msg_metadata = json.load(f)
+                    old_timestamp = msg_metadata.get("timestamp", None)
+                now = datetime.now()
+                timestamp = now.timestamp()
+                if old_timestamp is None:
+                    data = {"timestamp": timestamp, "response": "Initial record"}
+                    with open("data/message_sent.json", "w+") as f:
+                        json.dump(data, f)
+                    continue
+                time_diff = timestamp - old_timestamp
+                print(f"{time_diff=}")
+                if time_diff >= 120:
+                    print(f"slot available in {pincode}")
+                    for i in range(min(6, len(available_slots))):
+                        success = send_message(text=available_slots[i])
+                        if not success:
+                            break
+            time.sleep(20)
         except Exception as error:
             print(f"Error in main.py : {error}")
             continue
@@ -35,7 +49,7 @@ def search_slots_with_pin_code(pincode: str, age_group: str = None, dose: str = 
 def search_slots_with_district_id(
     dist_code: str, age_group: str = None, dose: str = None
 ):
-    for i in range(2):
+    for i in range(3):
         try:
             print(f"New job started at {datetime.now()}")
             slot_details = api_setu_get_slot_by_district(
@@ -45,12 +59,25 @@ def search_slots_with_district_id(
                 slot_details, age_group=age_group, dose=dose
             )
             if len(available_slots) > 0:
-                print(f"slot available in {dist_code}")
-                for i in range(min(6, len(available_slots))):
-                    success = send_message(text=available_slots[i])
-                    if not success:
-                        break
-            time.sleep(30)
+                with open("data/message_sent.json", "r") as f:
+                    msg_metadata = json.load(f)
+                    old_timestamp = msg_metadata.get("timestamp", None)
+                now = datetime.now()
+                timestamp = now.timestamp()
+                if old_timestamp is None:
+                    data = {"timestamp": timestamp, "response": "Initial record"}
+                    with open("data/message_sent.json", "w+") as f:
+                        json.dump(data, f)
+                    continue
+                time_diff = timestamp - old_timestamp
+                print(f"{time_diff=}")
+                if time_diff >= 120:
+                    print(f"slot available in {dist_code}")
+                    for i in range(min(6, len(available_slots))):
+                        success = send_message(text=available_slots[i])
+                        if not success:
+                            break
+            time.sleep(20)
         except Exception as error:
             print(f"Error in main.py : {error}")
             continue
