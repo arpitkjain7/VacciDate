@@ -117,7 +117,7 @@ def filter_results(slot_details: dict, age_group, dose):
                 if age_group is None:
                     if (
                         session.get("min_age_limit") == 18
-                        and session.get(dose_filter) >= 1
+                        and session.get(dose_filter) > 1
                         and n < 3
                     ):
                         booking_details = f"VACCINE AVAILABLE({session.get('min_age_limit')}+)\n{session.get('date')}\n{slot.get('district_name')}-{slot.get('state_name')}\n{slot.get('name')},{slot.get('address')}\nVaccine Type: {session.get('vaccine')}\n1st Dose availablility --> {session.get('available_capacity_dose1')} shots\n2nd Dose availablility --> {session.get('available_capacity_dose2')} shots\n\nRegister now from : https://selfregistration.cowin.gov.in/"
@@ -125,7 +125,7 @@ def filter_results(slot_details: dict, age_group, dose):
                         n += 1
                     elif (
                         session.get("min_age_limit") == 45
-                        and session.get(dose_filter) >= 1
+                        and session.get(dose_filter) > 1
                         and n < 6
                     ):
                         booking_details = f"VACCINE AVAILABLE({session.get('min_age_limit')}+)\n{session.get('date')}\n{slot.get('district_name')}-{slot.get('state_name')}\n{slot.get('name')},{slot.get('address')}\nVaccine Type: {session.get('vaccine')}\n1st Dose availablility --> {session.get('available_capacity_dose1')} shots\n2nd Dose availablility --> {session.get('available_capacity_dose2')} shots\n\nRegister now from : https://selfregistration.cowin.gov.in/"
@@ -136,7 +136,7 @@ def filter_results(slot_details: dict, age_group, dose):
                 else:
                     if (
                         session.get("min_age_limit") == int(age_group)
-                        and session.get(dose_filter) >= 1
+                        and session.get(dose_filter) > 1
                     ):
                         booking_details = f"VACCINE AVAILABLE({session.get('min_age_limit')}+)\n{session.get('date')}\n{slot.get('district_name')}-{slot.get('state_name')}\n{slot.get('name')},{slot.get('address')}\nVaccine Type: {session.get('vaccine')}\n1st Dose availablility --> {session.get('available_capacity_dose1')} shots\n2nd Dose availablility --> {session.get('available_capacity_dose2')} shots\n\nRegister now from : https://selfregistration.cowin.gov.in/"
                         master_list.append(booking_details)
